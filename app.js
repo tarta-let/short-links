@@ -1,8 +1,6 @@
-const currentUrl = window.location.href;
 const url = {
-    url: currentUrl
+    url: window.location.href
 };
-
 const btn_submit = document.querySelector('.button-submit');
 const btn_copy = document.querySelector('.button-copy');
 var link = document.querySelector('.input-link');
